@@ -18,4 +18,8 @@ class TestFizzBuzz(unittest.TestCase):
     fizz_buzz = FizzBuzz()
     self.assertEqual(fizz_buzz.run(15), "fizzbuzz")
 
+  def test_returns_number_if_neither(self):
+    fizz_buzz = FizzBuzz()
+    self.assertEqual(fizz_buzz.run(2), "2")
+
 
