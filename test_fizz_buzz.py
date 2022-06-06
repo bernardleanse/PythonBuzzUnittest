@@ -14,3 +14,8 @@ class TestFizzBuzz(unittest.TestCase):
     fizz_buzz = FizzBuzz()
     self.assertEqual(fizz_buzz.run(5), "buzz")
 
+  def test_returns_fizzbuzz_for_fifteen(self):
+    fizz_buzz = FizzBuzz()
+    self.assertEqual(fizz_buzz.run(15), "fizzbuzz")
+
+
